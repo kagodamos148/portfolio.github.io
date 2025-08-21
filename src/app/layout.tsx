@@ -5,6 +5,7 @@ import "./globals.css";
 // Local imports
 import NavBar from "@/components/NavBar";
 import { Footer } from "@/components/Footer";
+import { HeroPage } from "@/components/HeroPage";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,9 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        < NavBar />
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+        <NavBar />
+        <div className="flex-1">
+          <HeroPage />
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

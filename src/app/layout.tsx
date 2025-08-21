@@ -4,6 +4,7 @@ import "./globals.css";
 
 // Local imports
 import NavBar from "@/components/NavBar";
+import { Footer } from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "About Me",
+  title: 'Meghana Rao Nadendla - Clinical Pharmacist & Psychologist',
+  description: 'Portfolio of Meghana Rao Nadendla - Clinical Pharmacist, Psychologist, and Social Entrepreneur.',
 };
 
 export default function RootLayout({
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         < NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

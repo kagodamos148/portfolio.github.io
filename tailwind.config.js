@@ -15,6 +15,15 @@ module.exports = {
         ruby: '#C41E3A',
         amber: '#F2B63D',
       },
+      keyframes: {
+          slideUpAndFade: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' }
+        }
+      },
+      animation: {
+        slideUpAndFade: 'slideUpAndFade 0.5s ease-out forwards'
+      }
     },
   },
   plugins: [],

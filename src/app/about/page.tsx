@@ -1,11 +1,7 @@
-import Image from 'next/image';
-import { Button } from '@/components/Button';
+import { Button as Button1 } from '@/components/Button';
 
 // Local imports
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
-import { BackgroundGradient } from "../../components/ui/background-gradient";
 import { Carousel } from "../../components/ui/carousel";
-import { IconAppWindow } from "@tabler/icons-react";
 
 const content = [
   {
@@ -140,9 +136,9 @@ export default function AboutPage() {
                 </div>
                 <div className="p-6">
                   <p className="text-gray-600 mb-6">A new model of inclusive healthcare, bringing personalized support to the LGBTQIA+ community.</p>
-                  <Button href="/projects/pridally" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#1CA75B] to-[#70B9F0] group-hover:text-white transition-all duration-300">
+                  <Button1 href="/projects/pridally" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#1CA75B] to-[#70B9F0] group-hover:text-white transition-all duration-300">
                     Learn More
-                  </Button>
+                  </Button1>
                 </div>
               </div>
             </div>
@@ -159,9 +155,9 @@ export default function AboutPage() {
                 </div>
                 <div className="p-6">
                   <p className="text-gray-600 mb-6">Neuroscience-inspired sensory well-being products that transform everyday rituals.</p>
-                  <Button href="/projects/scensora" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#F2B63D] to-[#1CA75B] group-hover:text-white transition-all duration-300">
+                  <Button1 href="/projects/scensora" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#F2B63D] to-[#1CA75B] group-hover:text-white transition-all duration-300">
                     Learn More
-                  </Button>
+                  </Button1>
                 </div>
               </div>
             </div>
@@ -178,9 +174,9 @@ export default function AboutPage() {
                 </div>
                 <div className="p-6">
                   <p className="text-gray-600 mb-6">Exploring migration, identity, and philosophy through engaging digital content.</p>
-                  <Button href="/projects/speak2make" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#70B9F0] to-[#F2B63D] group-hover:text-white transition-all duration-300">
+                  <Button1 href="/projects/speak2make" variant="secondary" className="w-full group-hover:bg-gradient-to-r from-[#70B9F0] to-[#F2B63D] group-hover:text-white transition-all duration-300">
                     Learn More
-                  </Button>
+                  </Button1>
                 </div>
               </div>
             </div>

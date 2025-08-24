@@ -3,7 +3,7 @@ import Link from 'next/link';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' }
+  // { name: 'Contact', href: '/contact' }
 ];
 
 const NavBar = () => {
